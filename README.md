@@ -130,6 +130,14 @@ while lossG > B:
 - Apply on several layers of our generator at both training and test time
 - https://arxiv.org/pdf/1611.07004v1.pdf
 
+## 18 : ETC
+
+- Make the generator more powerful (easier said than done).
+- Make the discriminator less powerful (more easily done, but then you can get the opposite problem of the generator always fooling the discriminator with some crappy sample).
+- Decrease the learning rate or skip updates of the generator or the discriminator if either of them is becoming too strong.
+- Add noise to both true and generated samples before feeding them to the discriminator.
+- ... and a ton of other tricks scattered in the various GAN papers.
+
 
 ## Authors
 - Soumith Chintala
